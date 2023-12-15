@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        h1 {
+            color: blue;
+            font-size: 45px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            position: absolute;
+            top: 35%;
+        }
+
+        body {
+            background-color: silver;
+            margin: 0;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            background-color: darkblue;
+
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 25px;
+            display: flex;
+            text-align: left;
+            position: relative;
+            font-size: 20px;
+            top: -95px;
+
+        }
+
+        .navbar a:hover {
+            background-color: lightblue;
+            size: 60px;
+            cursor: pointer;
+        }
+
+        .navbar li {
+            float: right;
+        }
+
+        h2 {
+            color: white;
+            font-family: monospace;
+            font-size: 60px;
+            background-color: darkblue;
+        }
+
+        footer {
+
+            background-color: black;
+            height: 30px;
+            bottom: 0;
+            width: 100%;
+            color: white;
+            position: absolute;
+            text-align: center;
+
+        }
+
+        header {
+            background-color: darkblue;
+            height: 10vh;
+            width: 100%;
+            color: white;
+        }
+
+        header h2 {
+            position: absolute;
+            color: white;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        .first,
+        .second,
+        .third {
+            font-size: 50px;
+            margin-left: 2px;
+        }
+
+        .second {
+            color: rgb(43, 144, 226);
+            text-align: center;
+        }
+
+        .third {
+            text-align: center;
+        }
+        .first{
+            margin-left:5px;
+        }
+        .search input,
+        button {
+            position: absolute;
+            right: 12px;
+            font-size: 18px;
+            border-color: silver;
+        }
+
+        .d {
+            position: absolute;
+            top: 65%;
+            font-size: 20px;
+        }
+
+        .search input {
+            width: 18%;
+            height: 30px;
+
+        }
+
+        .search button,
+        .d button {
+            color: white;
+            background-color: rgb(22, 165, 222);
+            padding: 5px;
+            text-align: center;
+        }
+
+        .d button {
+
+            margin-right: 500px;
+            padding: 20px 30px 20px 30px;
+            border-radius: 30px;
+            border-color: none;
+        }
+
+        #joinus:hover {
+            cursor: pointer;
+            color: rgb(5, 20, 15);
+            background-color: rgb(215, 249, 250);
+        }
+
+        .login form {
+            position: absolute;
+            right: 100px;
+            top: 30%;
+            margin: 20px;
+            box-sizing: border-box;
+            border-color: rgb(105, 62, 7);
+            background-color: rgba(25, 23, 20, 0.6);
+            padding: 80px 80px 200px 80px;
+        }
+
+        .login form button {
+            background-color: rgb(22, 165, 222);
+            margin-right: 50px;
+            color: white;
+            padding: 10px 35px 10px 35px;
+            font-size: 15px;
+            border-radius: 15%;
+            width: 60%;
+        }
+
+        .login form h3 {
+            color: rgb(13, 12, 12);
+            position: absolute;
+            top: 0%;
+            padding: 5px 30px 5px 30px;
+            background-color: rgb(248, 250, 250);
+            text-align: center;
+            margin-left: 18px;
+
+
+        }
+
+        .login form input {
+            height: 35px;
+            border: none;
+            border-bottom: 2px solid lightblue;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            font-size: 15px;
+            background: transparent;
+        }
+
+        .login ::placeholder {
+            color: white;
+            opacity: 1;
+        }
+
+        .login form h4 {
+            position: absolute;
+            top: 55%;
+            color: white;
+            margin-left: 25px;
+        }
+
+        .login form .Signup {
+            position: absolute;
+            top: 70%;
+            color: white;
+            margin-left: 35px;
+        }
+
+        .login form .Signup b a {
+            text-decoration: none;
+            color: lightblue;
+            margin-left: 20px;
+        }
+
+        .login form h5 {
+            position: absolute;
+            top: 73%;
+            color: white;
+            margin-left: 65px;
+        }
+
+        .login form .image {
+            position: absolute;
+            top: 85%;
+            margin-left: 40px;
+            
+
+        }
+        .login form .image i{
+            position:relative;
+            padding-right: 5px;
+        }
+
+        .d p {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>NexTech Innovations</h2>
+    </header>
+    <nav class="navbar">
+
+        <ul>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="people.html">People</a></li>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+    <div class="search"><input type="text" placeholder="Enter to Search">
+        <button>Search</button>
+    </div>
+    <h1>
+        <div class="first">A Software Journey To</div>
+        <div class="second"> Empower<br> </div>
+        <div class="third">The World</div>
+    </h1>
+    <div class="d">
+        <p> &nbsp;"Software is the wizard behind the screen,
+            turning ideas into actions with its magical code spells."</p>
+        <button id="joinus">Join Us</button>
+    </div>
+    <div class="login">
+        <form>
+            <h3>Login Here</h3>
+            <input type="text" placeholder="Username or Email"><br><br>
+            <input type="password" placeholder="Password"><br><br><br>
+            <button>Login</button>
+            <h4>Don't have an account</h4><br>
+            <div class="Signup"><b><a href="">Sign up</a></b> here</div>
+            <h5>Login with</h5>
+            <div class="image">
+                <i class="fa fa-instagram" style="color:white;font-size: 25px;"></i>
+                <i class="fa fa-facebook" style="color:white;font-size: 25px;"></i>
+                <i class="fa fa-twitter" style="color:white;font-size: 25px;"></i>
+                <i class="fa fa-google" style="color:white;font-size: 25px;"></i>
+            </div>
+        </form>
+    </div>
+    <footer>
+        Designed and Developed by Rahul V&nbsp;&copy; 2023
+    </footer>
+
+</body>
+
+</html>
